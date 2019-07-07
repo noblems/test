@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+     "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+     "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+      
+<hibernate-mapping>  
+<class name="manager.mappings.Person" table="person">  
+    <id name="personid">  
+        <generator class="assigned"></generator>  
+    </id>  
+                
+    <property name="fname"></property>  
+    <property name="mname"></property> 
+    <property name="lname"></property> 
+    <property name="age"></property> 
+    <property name="sex"></property> 
+    <property name="email"></property> 
+    <property name="phoneno"></property>            
+    </class>  
+                
+</hibernate-mapping> 
